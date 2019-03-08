@@ -1,0 +1,135 @@
+li.navli {
+    margin-right: 0;
+}
+
+.navbar{
+	min-height: 3.2rem !important;
+}
+
+@media screen and (min-width:1000px){
+
+.navbar{
+	min-height: 3.2rem !important;
+	height: 3.7rem !important;
+}
+
+}
+
+
+.navbar-header,.navbar-brand,ul.navbar-nav,ul.navbar-nav .navli,.navbar-header{
+	min-height: 3.2rem;
+}
+
+.navbar-nav>li>a{
+	padding-top: 0.7rem;
+}
+
+
+.main-search{
+	padding-left: 8rem;
+	margin-bottom: 8px;
+}
+
+.main{
+	margin-top: 5rem;
+}
+
+.main-logo{
+	width: 6rem;
+
+}
+
+.no-padding{
+	padding: 0;
+}
+
+.logo-font{
+	margin-left: -1rem;
+	padding-top: 0.7rem;
+}
+
+.logo-font .zh{
+	color: #EB612F;
+	font-size: 2.8rem;
+	letter-spacing: 10px;
+}
+
+.logo-font .en{
+	color: #E4393C;
+	font-size: 1.7rem;
+	display: block;
+	margin-top: -0.8rem;
+}
+
+.search-div{
+	padding-top: 1rem;
+}
+
+.advs{
+	height: 4rem;	
+	background-size: 100% 100%;
+	margin-top: 1rem;
+	margin-left: 2rem;
+}
+
+
+@media screen and (max-width:768px){
+
+.main{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.navbar-brand span{
+	display: block;
+	margin-top: 1rem;
+}
+
+
+a.sign{
+	display: none;
+}
+
+.main-search{
+	padding-left: 1rem;
+}
+
+.search-div{
+	padding-top: 1rem;
+	margin-left: -1.8rem;
+}
+
+.main-logo-div{
+	margin-left: 0.8rem; 
+}
+
+.main-logo{
+	width: 3.3rem;
+	margin-top: 0.7rem;
+}
+
+.logo-font .zh{
+	font-size: 2rem;
+}
+
+.logo-font .en{
+	font-size: 1.2rem;
+	line-height: 2;
+
+}
+
+.advs{
+	display: none;
+}
+
+
+}
+
+@media (min-width: 768px){
+
+.navbar-nav>li {
+    float: left;
+    height: 3.6rem;
+}
+
+}

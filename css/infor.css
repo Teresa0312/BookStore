@@ -1,0 +1,102 @@
+*{
+	bordder: 1px solid red;
+}
+
+.main-nav{
+
+	background: #EFEBD9;
+}
+
+.main-nav ul{
+	width: 100%;
+	float: left;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.main-nav ul li{
+	width: 9%;
+	float: left;
+	border-right: 1px dotted white;
+	font-size: 1.5rem;
+	padding-top: 0.9rem;
+	padding-bottom: 0.6rem;
+	text-align: center;
+}
+
+.main-nav ul li a{
+	color: black;
+}
+
+.good-img{
+	margin-left: 3rem;
+}
+
+@media screen and (max-width:768px){
+.main-nav{
+	padding: 0;
+}
+.main-nav ul li{
+	width: 100%;
+	border-right: 0;
+	border-bottom: 1px dotted white;
+}
+
+.good-img{
+	margin-left: 0;
+}
+}
+
+.no-padding{
+	padding: 0;
+}
+
+.g-infor-ul{
+	float: left;
+	padding: 0;
+	margin: 0; 
+}
+
+.g-infor-li{
+	width: 100%;
+	float: left;
+	list-style: none;
+}
+
+.g-infor-li h3{ 
+	width: 100%;
+	float: left;
+}
+
+.g-infor-li h3 span{
+	float: left;
+}
+
+.g-infor-li h3 img{
+	float: left;
+	margin-left: 3rem;
+}
+
+.g-infor-li p{
+	color: gray;
+	float: left;
+}
+
+.server-ul{
+	list-style: none;
+}
+
+.server-ul li{
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+}
+
+.server-ul li span{
+	margin-right: 1rem;
+}
+
+.server-span{
+	font-size: 1.2rem;
+	color: gray;
+}

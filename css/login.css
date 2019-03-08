@@ -1,0 +1,76 @@
+.logindiv{
+	border: 1px solid white;
+	height: 36rem;
+	background: rgba(255,255,255,.9);
+	position: relative;
+	margin-top: 3rem;
+}
+
+.login-h{
+	border-bottom: 2px solid #337AB7;
+}
+
+.login-f{
+	padding-top: 2rem !important;
+}
+
+.forminput{
+	height: 4rem;
+}
+
+.main{
+	background: url('../img/pexels-photo-545049.jpg') no-repeat;
+	    background-repeat:repeat;
+    	background-size:auto 100% ;
+    background-size: cover;
+	height: 60rem;
+}
+
+input[type="text"],
+input[type="password"]{
+	text-indent:2.3rem;
+	font-weight:normal;
+	color:black;
+	background:url('../img/login-sprite.png') no-repeat white;
+	background-position:2% 10%;
+}
+
+input[type="password"]{
+	background-position:2% 90%;
+}
+
+.login-oauth .more-login-mode {
+    width: 75%;
+    margin: 10px auto;
+    text-align: center;
+    float: left;
+}
+
+.middle-line {
+    text-align: center;
+    background: url(../img/line.png) center center repeat-x;
+}
+
+.more-login-mode p {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 0 1.25rem;
+    text-transform: uppercase;
+    background-color: rgba(255,255,255,1);
+}
+
+.imgs{
+	list-style: none;
+	width: 100%;
+	padding: 0;
+	float: left;
+}
+
+.imgs li{
+	width: 25%;
+	float: left;
+}
+
+.imgs li img{
+	width: 3.5rem;
+}

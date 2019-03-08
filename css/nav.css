@@ -1,0 +1,92 @@
+.navbar-default{
+	transition: all 0.6s;
+	background-color: rgba(0,0,0,.5);
+	border: 0;
+	border-radius: 0;
+}
+
+.navbar-default:hover{
+	transition: all 0.6s;
+	background-color: rgba(0,0,0,.7);
+}
+
+.header{                                       
+	text-align: center;
+	letter-spacing: 1rem;
+}
+.nav-slider{
+	width: 100%;
+	margin-top: 10px;
+	text-align: center;
+}
+.nav-slider a{
+	font-size: 2rem;
+	padding: 0 10px;
+	margin: 0 10px;
+}
+
+.control-label{
+	display: none;
+}
+
+.navbar{
+	min-height: 5.4rem !important;
+}
+
+.navbar-header,.navbar-brand,ul.navbar-nav,ul.navbar-nav .navli,.navbar-header{
+	min-height: 5.4rem;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+li.navli{
+	margin-right: 40px;
+}
+
+.navbar-default .navbar-nav > a,.navbar-default .navbar-nav > .active > a{
+	background: transparent;
+}
+
+.logo{
+	height: 5rem;
+	margin-top: -1.4rem;
+}
+
+.navbar-nav>li>a{
+	padding-top: 1.7rem;
+}
+
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: white;
+	transition: all 0.6s;
+	transform: scale(1,1.2);
+}
+
+
+@media screen and (min-width:1000px){
+
+.nav-con{
+	padding: 0 12rem;
+}
+
+
+}
+
+@media screen and (max-width:1000px){
+
+
+span.sign{
+	display: none;
+}
+
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+	background: transparent;
+	color: white;
+	transition: all 0.6s;
+	transform: scale(1.0,1.2);
+}
